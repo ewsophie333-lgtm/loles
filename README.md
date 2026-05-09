@@ -59,13 +59,16 @@ El **Multi-Party Computation** es un subcampo de la criptografía que permite a 
 
 ## 🚀 Fase 4: Proyecto de Integración Práctica
 
-Para consolidar el aprendizaje, propongo este ejercicio:
+Para consolidar el aprendizaje, propongo este ejercicio diseñado para ahorrar tiempo en la gestión docente:
 
-**"El Notificador Automático de Repositorio"**
-*   **Paso 1:** Configurar un Webhook en GitHub que avise cuando alguien haga un *Push*.
-*   **Paso 2:** Recibir ese Webhook en n8n.
-*   **Paso 3:** Filtrar en n8n (usando un nodo `IF`) si el commit contiene la palabra "error".
-*   **Paso 4:** Si es un error, enviar un mensaje automático por Telegram o Email al profesor.
+**"Gestor Inteligente de Tutorías y Dudas"**
+
+*   **Paso 1:** Crear un formulario sencillo (Google Forms o Typeform) donde los alumnos marquen su asistencia o dejen dudas sobre la clase.
+*   **Paso 2:** Configurar n8n para que escuche cada nueva respuesta del formulario.
+*   **Paso 3:** Usar un nodo `IF` en n8n: 
+    *   Si el alumno marca la duda como **"Urgente"**, n8n envía una notificación inmediata a tu **Telegram** o móvil.
+    *   Si es una duda normal, n8n la guarda automáticamente en un **Google Sheets** organizado por temas.
+*   **Paso 4:** n8n genera un correo electrónico automático de confirmación al alumno indicándole que su duda ha sido recibida y será tratada en la próxima sesión.
 
 ---
 
@@ -80,4 +83,4 @@ Para consolidar el aprendizaje, propongo este ejercicio:
 ---
 
 > [!TIP]
-> **Consejo para Loles:** La mejor forma de enseñar n8n es mediante el "aprendizaje basado en problemas". Intenta automatizar una tarea tediosa del día a día (ej. pasar notas de un CSV a una base de datos) y el interés de los alumnos será inmediato.
+> **Consejo para Loles:** La automatización no es solo tecnología, es **libertad**. Al delegar las tareas repetitivas (asistencia, organización de dudas, avisos) a n8n, recuperas tiempo valioso para lo que realmente importa: la mentoría directa y la calidad de la enseñanza. Empieza automatizando un solo proceso pequeño y verás cómo la clase se vuelve mucho más dinámica.
