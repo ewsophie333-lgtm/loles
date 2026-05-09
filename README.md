@@ -51,9 +51,13 @@ El **Multi-Party Computation** es un subcampo de la criptografía que permite a 
 2.  **Computación Distribuida:** Cada nodo realiza cálculos matemáticos sobre su pedazo.
 3.  **Reconstrucción:** Solo cuando los nodos combinan sus resultados parciales se obtiene la respuesta correcta (ej. la suma total de salarios sin que nadie sepa el salario de su compañero).
 
-### 3.3 Casos de Uso en ASIX
-*   **Gestión de Claves (Wallets):** Firmar transacciones sin que una sola máquina tenga la clave privada completa.
-*   **Auditorías de Privacidad:** Sumar estadísticas de salud o financieras de varios clientes sin violar la RGPD.
+### 3.3 Casos de Uso Educativos (LMSGI e IAW)
+
+Para que los alumnos de ASIX lo entiendan en sus módulos:
+
+*   **En IAW (Implantación de Apps Web):** Configurar el despliegue de una aplicación de forma que las claves de la base de datos o los tokens de API estén fragmentados. Si un atacante vulnera el servidor web, **no podrá obtener la clave completa**, ya que solo reside una "pieza" (share) en esa máquina.
+*   **En LMSGI (Lenguaje de Marcas):** Imaginad que cada alumno tiene un archivo XML con sus notas privadas. Usando MPC, podríamos calcular la nota media de toda la clase y la desviación típica **sin que nadie (ni siquiera el profesor o el sistema) vea nunca las notas individuales** de cada archivo XML. Solo se revela el resultado final agregado.
+*   **Votaciones y Evaluaciones:** Realizar encuestas de satisfacción o evaluaciones entre pares (peer-review) donde los votos son totalmente anónimos y privados hasta que se alcanza el quorum para mostrar el resultado.
 
 ---
 
