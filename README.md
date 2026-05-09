@@ -23,10 +23,11 @@ Es el "pegamento" que conecta tus herramientas (Gmail, Google Sheets, Telegram, 
 *   **El Flujo:** n8n lee tus correos entrantes. Si el asunto contiene "Duda" o "Entrega", lo etiqueta automáticamente en Gmail y lo registra en un panel de control.
 *   **Auto-Respuesta Inteligente:** Si detecta palabras clave (ej. "fecha examen"), n8n puede enviar una respuesta automática con el calendario de exámenes, ahorrándote responder manualmente a cada uno.
 
-### 2.2 Sistema de Detección de Plagio y Calidad
-Para las entregas de aplicaciones web (IAW) o lenguajes de marcas:
-*   **El Flujo:** Cuando un alumno sube su tarea, n8n la recibe, extrae el texto y lo compara con las entregas de otros alumnos o años anteriores usando una IA (como GPT) o scripts de comparación de archivos.
-*   **El Resultado:** n8n te envía un informe de "similitud" directamente a tu correo, señalando qué partes son sospechosas antes de que tú abras el archivo.
+### 2.2 Detección de IA y Plagio en Exámenes de Código
+Si tus alumnos usan IA (ChatGPT, Copilot) para resolver los exámenes prácticos de IAW o Lenguaje de Marcas:
+*   **Filtro n8n + AI:** Puedes crear un flujo donde n8n reciba el código del examen y lo envíe a un modelo de lenguaje (como GPT-4) pidiéndole: *"Analiza este código e identifica patrones típicos de generación por IA o inconsistencias con el nivel de la clase"*.
+*   **Análisis de Historial (GitHub):** En lugar de solo ver el resultado final, puedes ver el **historial de commits**. Si un alumno tiene 500 líneas de código perfectas subidas de golpe en un solo commit, es una señal clara de "copiar y pegar".
+*   **Auditoría en Tiempo Real (Codespaces):** Al usar Codespaces, puedes entrar en vivo en la sesión del alumno (Live Share) para ver cómo construye la lógica paso a paso, o revisar el historial de comandos ejecutados en la terminal.
 
 ### 2.3 Gestión Automática de Tutorías
 *   **El Flujo:** En lugar de hilos interminables de correos, n8n conecta tu calendario con un formulario. El alumno elige hueco, n8n crea la cita, genera el enlace de la reunión (Meet/Teams) y os envía el recordatorio a ambos.
