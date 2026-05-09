@@ -29,6 +29,9 @@ Si tus alumnos usan IA (ChatGPT, Copilot) para resolver los exámenes prácticos
 *   **Análisis de Historial (GitHub):** En lugar de solo ver el resultado final, puedes ver el **historial de commits**. Si un alumno tiene 500 líneas de código perfectas subidas de golpe en un solo commit, es una señal clara de "copiar y pegar".
 *   **Auditoría en Tiempo Real (Codespaces):** Al usar Codespaces, puedes entrar en vivo en la sesión del alumno (Live Share) para ver cómo construye la lógica paso a paso, o revisar el historial de comandos ejecutados en la terminal.
 
+> [!IMPORTANT]
+> **Nota sobre Equidad:** Estas herramientas deben servir como **orientación**, no como juez único. Es vital mantener la revisión humana para evitar falsos positivos y asegurar que la tecnología fomente el aprendizaje honesto sin crear un clima de vigilancia punitiva.
+
 ### 2.3 Gestión Automática de Tutorías
 *   **El Flujo:** En lugar de hilos interminables de correos, n8n conecta tu calendario con un formulario. El alumno elige hueco, n8n crea la cita, genera el enlace de la reunión (Meet/Teams) y os envía el recordatorio a ambos.
 
