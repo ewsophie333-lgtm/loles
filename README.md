@@ -22,10 +22,10 @@ Es el "pegamento" que conecta tus herramientas (Gmail, Google Sheets, Telegram, 
 
 ## 🤖 2. Casos de Uso Prácticos (Para tu día a día)
 
-### 2.1 Optimización y Triaje de Correo Electrónico
-¿Recibes cientos de correos de alumnos preguntando lo mismo?
-*   **El Flujo:** n8n lee tus correos entrantes. Si el asunto contiene "Duda" o "Entrega", lo etiqueta automáticamente en Gmail y lo registra en un panel de control.
-*   **Auto-Respuesta Inteligente:** Si detecta palabras clave (ej. "fecha examen"), n8n puede enviar una respuesta automática con el calendario de exámenes, ahorrándote responder manualmente a cada uno.
+### 2.1 Optimización y Triaje de Correo Administrativo e Institucional
+Como docente, tu bandeja de entrada se inunda de correos institucionales, convocatorias de reuniones, actas de departamento, boletines y peticiones de secretaría:
+*   **Clasificación Inteligente:** Un flujo de n8n puede leer tus correos entrantes de Gmail u Outlook corporativo. Si provienen del equipo directivo, secretaría o jefatura de estudios, n8n los clasifica por orden de prioridad, les asigna una etiqueta de color automática y crea una tarea en tu gestor (ej. Todoist o Google Tasks) con el plazo correspondiente para que nunca se te pase un trámite.
+*   **Resumen Diario de Alertas:** En lugar de interrumpir tus clases o tutorías revisando el correo constantemente, n8n puede recopilar todos los correos institucionales de menor urgencia recibidos durante la mañana y enviarte un único **resumen diario por Telegram o WhatsApp** a la hora que elijas, consolidando las novedades administrativas importantes y los próximos eventos del calendario.
 
 ### 2.2 Detección de IA y Plagio en Exámenes de Código
 Si tus alumnos usan IA (ChatGPT, Copilot) para resolver los exámenes prácticos de IAW o Lenguaje de Marcas:
