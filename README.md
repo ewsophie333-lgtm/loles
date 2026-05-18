@@ -35,7 +35,6 @@ Si tus alumnos usan IA (ChatGPT, Copilot) para resolver los exámenes prácticos
 
 > ⚠️ **IMPORTANTE - Nota sobre Equidad:** Estas herramientas deben servir como **orientación**, no como juez único. Es vital mantener la revisión humana para evitar falsos positivos y asegurar que la tecnología fomente el aprendizaje honesto sin crear un clima de vigilancia punitiva.
 
-![Suspicious Patterns & IA Plagiarism Dashboard](assets/plagiarism_dashboard.png)
 
 ### 2.3 Gestión Automática de Tutorías
 *   **El Flujo:** En lugar de hilos interminables de correos, n8n conecta tu calendario con un formulario. El alumno elige hueco, n8n crea la cita, genera el enlace de la reunión (Meet/Teams) y os envía el recordatorio a ambos.
